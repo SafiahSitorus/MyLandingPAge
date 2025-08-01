@@ -59,12 +59,10 @@ useEffect(() => {
                         transition={{ duration: 0.6 }}
                     >
                         <nav className="space-x-6 text-sm font-medium">
-                            <a href="/" className="hover:text-blue-400 transition">About</a>
-                            <a href="/projects" className="hover:text-blue-400 transition" >Projects</a>
-    
-                            <a href="/projects#contact" className="hover:text-blue-400 transition">
-                                Contact
-                            </a>
+                        <Link to="/" className="hover:text-blue-400 transition">About</Link>
+                        <Link to="/projects" className="hover:text-blue-400 transition">Projects</Link>
+                       
+                            <a href="#/projects#contact" className="hover:text-blue-400 transition">Contact</a>
                         </nav>
                     </motion.nav>
                 </header>
