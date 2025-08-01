@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyLandingPAge/static/css/main.783eeaed.css",
-    "main.js": "/MyLandingPAge/static/js/main.3bd5fd65.js",
+    "main.css": "/MyLandingPAge/static/css/main.1d8ea99e.css",
+    "main.js": "/MyLandingPAge/static/js/main.9bc73fff.js",
     "static/js/453.a5a847af.chunk.js": "/MyLandingPAge/static/js/453.a5a847af.chunk.js",
     "static/media/smsnP.png": "/MyLandingPAge/static/media/smsnP.e2c7b918fce8380d5d24.png",
     "static/media/imagebc.png": "/MyLandingPAge/static/media/imagebc.918d31bf8e1d8e5b1549.png",
@@ -9,12 +9,12 @@
     "static/media/safiah_laptop.jpg": "/MyLandingPAge/static/media/safiah_laptop.44a5cdc2b727e12368de.jpg",
     "static/media/tez.png": "/MyLandingPAge/static/media/tez.d60d932496f2c5911aa8.png",
     "index.html": "/MyLandingPAge/index.html",
-    "main.783eeaed.css.map": "/MyLandingPAge/static/css/main.783eeaed.css.map",
-    "main.3bd5fd65.js.map": "/MyLandingPAge/static/js/main.3bd5fd65.js.map",
+    "main.1d8ea99e.css.map": "/MyLandingPAge/static/css/main.1d8ea99e.css.map",
+    "main.9bc73fff.js.map": "/MyLandingPAge/static/js/main.9bc73fff.js.map",
     "453.a5a847af.chunk.js.map": "/MyLandingPAge/static/js/453.a5a847af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.783eeaed.css",
-    "static/js/main.3bd5fd65.js"
+    "static/css/main.1d8ea99e.css",
+    "static/js/main.9bc73fff.js"
   ]
 }
