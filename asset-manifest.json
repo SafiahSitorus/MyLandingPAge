@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.783eeaed.css",
-    "main.js": "/test/static/js/main.97368ae5.js",
-    "static/js/453.a5a847af.chunk.js": "/test/static/js/453.a5a847af.chunk.js",
-    "static/media/smsnP.png": "/test/static/media/smsnP.e2c7b918fce8380d5d24.png",
-    "static/media/imagebc.png": "/test/static/media/imagebc.918d31bf8e1d8e5b1549.png",
-    "static/media/safiah_aset_laptop.jpg": "/test/static/media/safiah_aset_laptop.0342d69f005b4b4db78a.jpg",
-    "static/media/safiah_laptop.jpg": "/test/static/media/safiah_laptop.44a5cdc2b727e12368de.jpg",
-    "static/media/tez.png": "/test/static/media/tez.d60d932496f2c5911aa8.png",
-    "index.html": "/test/index.html",
-    "main.783eeaed.css.map": "/test/static/css/main.783eeaed.css.map",
-    "main.97368ae5.js.map": "/test/static/js/main.97368ae5.js.map",
-    "453.a5a847af.chunk.js.map": "/test/static/js/453.a5a847af.chunk.js.map"
+    "main.css": "/MyLandingPAge/static/css/main.783eeaed.css",
+    "main.js": "/MyLandingPAge/static/js/main.55a9c080.js",
+    "static/js/453.a5a847af.chunk.js": "/MyLandingPAge/static/js/453.a5a847af.chunk.js",
+    "static/media/smsnP.png": "/MyLandingPAge/static/media/smsnP.e2c7b918fce8380d5d24.png",
+    "static/media/imagebc.png": "/MyLandingPAge/static/media/imagebc.918d31bf8e1d8e5b1549.png",
+    "static/media/safiah_aset_laptop.jpg": "/MyLandingPAge/static/media/safiah_aset_laptop.0342d69f005b4b4db78a.jpg",
+    "static/media/safiah_laptop.jpg": "/MyLandingPAge/static/media/safiah_laptop.44a5cdc2b727e12368de.jpg",
+    "static/media/tez.png": "/MyLandingPAge/static/media/tez.d60d932496f2c5911aa8.png",
+    "index.html": "/MyLandingPAge/index.html",
+    "main.783eeaed.css.map": "/MyLandingPAge/static/css/main.783eeaed.css.map",
+    "main.55a9c080.js.map": "/MyLandingPAge/static/js/main.55a9c080.js.map",
+    "453.a5a847af.chunk.js.map": "/MyLandingPAge/static/js/453.a5a847af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.783eeaed.css",
-    "static/js/main.97368ae5.js"
+    "static/js/main.55a9c080.js"
   ]
 }
