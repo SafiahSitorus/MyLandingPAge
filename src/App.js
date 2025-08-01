@@ -1,6 +1,6 @@
 // src/App.js
 import React from "react";
-import { HashRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import AppRoutes from "./routes/AppRoutes";
 // import Navbar from "./components/Navbar"; // opsional
 import Particles from "react-tsparticles";

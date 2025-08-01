@@ -43,36 +43,11 @@ useEffect(() => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white">
             {/* HEADER */}
-           <header className="sticky top-0 z-50 bg-opacity-80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center">
-                    <motion.h1
-                        className="text-2xl font-bold text-white tracking-wide"
-                        initial={{ opacity: 0, x: -40 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.6 }}
-                    >
-                        < span href="#">Safiah<span className="text-blue-400">.dev</span></span>
-                    </motion.h1>
-                    <motion.nav
-                        className="space-x-6 text-sm font-medium text-white"
-                        initial={{ opacity: 0, x: 40 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.6 }}
-                    >
-                        <nav className="space-x-6 text-sm font-medium">
-                        <Link to="/" className="hover:text-blue-400 transition">About</Link>
-                        <Link to="/projects" className="hover:text-blue-400 transition">Projects</Link>
-                       
-                            <a href="#/projects#contact" className="hover:text-blue-400 transition">Contact</a>
-                        </nav>
-                    </motion.nav>
-                </header>
+ 
 
             {/* PROJECT SECTION */}
             <section className="py-16 bg-transparent min-h-[600px]" id="features">
                 <div className="max-w-7xl mx-auto px-4">
-                    <h2 className="text-3xl font-bold text-white mb-10 text-center">
-                        My Projects & Features
-                    </h2>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* Item */}
@@ -172,10 +147,6 @@ useEffect(() => {
             )}
 
 
-            {/* FOOTER */}
-            <footer className="py-6 text-center text-sm text-gray-400">
-                © {new Date().getFullYear()} Safiah.dev — Built with 💙 React & Tailwind
-            </footer>
         </div>
     );
 }
