@@ -4,6 +4,7 @@ import heroImage from "../images/smsnP.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { MdShoppingCartCheckout, MdOutlineEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 export default function Home() {
 
     return (
@@ -24,14 +25,11 @@ export default function Home() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
                 >
-                    <nav className="space-x-6 text-sm font-medium">
-                        <a href="/" className="hover:text-blue-400 transition">About</a>
-                        <a href="/projects" className="hover:text-blue-400 transition" >Projects</a>
-
-                        <a href="/projects#contact" className="hover:text-blue-400 transition">
-                            Contact
-                        </a>
-                    </nav>
+               <nav className="space-x-6 text-sm font-medium">
+  <Link to="/" className="hover:text-blue-400 transition">About</Link>
+  <Link to="/projects" className="hover:text-blue-400 transition">Projects</Link>
+  <Link to="/projects#contact" className="hover:text-blue-400 transition">Contact</Link>
+</nav>
                 </motion.nav>
             </header>
 

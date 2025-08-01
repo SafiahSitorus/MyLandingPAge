@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { MdShoppingCartCheckout, MdOutlineEmail } from "react-icons/md";
 import { IoIosSend } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export default function Project() {
     const [showContact, setShowContact] = useState(false);
