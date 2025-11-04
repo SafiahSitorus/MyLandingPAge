@@ -13,13 +13,13 @@ import { Link } from "react-router-dom";
 export default function Project() {
     const [showContact, setShowContact] = useState(false);
     const contactRef = useRef(null);
-useEffect(() => {
-  if (showContact && contactRef.current) {
-    setTimeout(() => {
-      contactRef.current.scrollIntoView({ behavior: "smooth" });
-    }, 100); // Tambahkan sedikit delay agar animasi muncul dulu
-  }
-}, [showContact]);
+    useEffect(() => {
+        if (showContact && contactRef.current) {
+            setTimeout(() => {
+                contactRef.current.scrollIntoView({ behavior: "smooth" });
+            }, 100); // Tambahkan sedikit delay agar animasi muncul dulu
+        }
+    }, [showContact]);
     useEffect(() => {
         const handleHashChange = () => {
             if (window.location.hash === "#contact") {
@@ -41,9 +41,9 @@ useEffect(() => {
 
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white">
+        <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white rounded-xl">
             {/* HEADER */}
- 
+
 
             {/* PROJECT SECTION */}
             <section className="py-16 bg-transparent min-h-[600px]" id="features">
@@ -57,7 +57,16 @@ useEffect(() => {
                                 <IoIosSend />
                             </div>
                             <div>
-                                <h3 className="text-lg font-semibold text-white">Intelligent Messaging</h3>
+                                <h3 className="text-lg font-semibold text-white">
+                                    <a
+                                        href="http://localhost:8090/login"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-lg font-semibold text-white hover:text-[rgb(87,123,100)] transition-colors"
+                                    >
+                                        Intelligent Messaging
+                                    </a>
+                                </h3>
                                 <p className="text-gray-300">
                                     Improved the Frontend (FE) of an existing omnichannel application, broadcast application by fixing bugs
                                     and optimizing performance using ReactJs
@@ -96,7 +105,17 @@ useEffect(() => {
                                 <FaRocketchat />
                             </div>
                             <div>
-                                <h3 className="text-lg font-semibold text-white">Live Chat</h3>
+                                <h3 className="text-lg font-semibold text-white">
+                                    <a
+                                        href="https://wekonnek.id/auth/signin"
+
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-lg font-semibold text-white hover:text-[rgb(87,123,100)] transition-colors"
+                                    >
+                                        Live Chat
+                                    </a>
+                                </h3>
                                 <p className="text-gray-300">
                                     Migrated(conducted frontend analysis and implemented) the existing omnichannel frontend to a
                                     micro-frontend architecture using ReactJs
@@ -138,7 +157,7 @@ useEffect(() => {
                             <a href="https://github.com/SafiahSitorus" target="_blank" rel="noopener noreferrer" className="text-white text-2xl hover:text-gray-300">
                                 <FaGithub />
                             </a>
-                            <a    href="https://www.linkedin.com/in/safiah-sitorus/" target="_blank" rel="noopener noreferrer" className="text-white text-2xl hover:text-blue-300">
+                            <a href="https://www.linkedin.com/in/safiah-sitorus/" target="_blank" rel="noopener noreferrer" className="text-white text-2xl hover:text-blue-300">
                                 <FaLinkedin />
                             </a>
                         </div>

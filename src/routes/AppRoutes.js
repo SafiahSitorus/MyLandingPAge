@@ -9,6 +9,7 @@ import Carousel from "../pages/carousel";
 import Login from "../pages/login";
 import LAndingPage from "../pages/landingPAge";
 import Project from "../pages/projects";
+import Projects1 from "../pages/component/Projects1";
 
 function AppRoutes() {
   return (
@@ -21,6 +22,7 @@ function AppRoutes() {
       <Route path="/login" element={<Login />} />
       <Route path="/landingPage" element={<LAndingPage />} />
       <Route path="/projects" element={<Project />} />
+      <Route path="/projects1" element={<Projects1 />} />
       
     </Routes>
   );

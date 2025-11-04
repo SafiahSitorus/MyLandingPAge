@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { MdShoppingCartCheckout, MdOutlineEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
-import Project from "./projects"; 
+import Project from "./projects";
 export default function Home() {
 
     return (
@@ -27,8 +27,8 @@ export default function Home() {
                     transition={{ duration: 0.6 }}
                 >
                     <nav className="space-x-6 text-sm font-medium">
-                     <a href="/MyLandingPAge" className="hover:text-blue-400 transition">About</a>
-                      
+                        <a href="/MyLandingPAge" className="hover:text-blue-400 transition">About</a>
+
                         <a href="/projects" className="hover:text-blue-400 transition" >Projects</a>
 
                         <a href="/projects#contact" className="hover:text-blue-400 transition">
@@ -75,13 +75,29 @@ export default function Home() {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="flex flex-col items-center gap-4"
                     >
-                        <div className="overflow-hidden rounded-full w-64 h-80 shadow-lg">
-                            <img
-                                src={heroImage}
-                                alt="Hero"
-                                className="h-full object-cover object-center"
-                            />
-                        </div>
+                        {/* Efek gambar bergerak */}
+                      <motion.div
+  initial={{ y: 0, rotate: 0 }}
+  animate={{
+    y: [0, -25, 0],        // naik-turun lebih kelihatan
+    rotate: [0, 2, -2, 0], // goyang lembut
+  }}
+  transition={{
+    duration: 5,           // 5 detik per siklus
+    repeat: Infinity,      // loop terus
+    ease: "easeInOut",
+  }}
+  className="overflow-hidden rounded-full w-64 h-80 shadow-lg"
+>
+  <motion.img
+    src={heroImage}
+    alt="Hero"
+    className="h-full w-full object-cover object-center"
+    whileHover={{ scale: 1.05 }}
+    transition={{ type: "spring", stiffness: 80 }}
+  />
+</motion.div>
+
 
                         {/* Social Links */}
                         <div className="flex gap-6 mt-4">
@@ -108,18 +124,17 @@ export default function Home() {
                                 className="text-gray-400 hover:text-white transition"
                             >
                                 <MdOutlineEmail size={40} />
-
                             </a>
-
                         </div>
                     </motion.div>
+
                 </div>
             </main>
 
 
             {/* FOOTER */}
             <footer className="py-6 text-center text-sm text-gray-400">
-                © {new Date().getFullYear()} Safiah.dev — Built with 💙 React & Tailwind
+                © {new Date().getFullYear()} Safiah.dev — Built with 💙 React.Js & Tailwind
             </footer>
         </div>
     );
